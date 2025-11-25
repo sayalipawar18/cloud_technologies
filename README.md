@@ -2,11 +2,6 @@
 
 We built a simple, cloud-style ETL pipeline for the Kaggle Chest X-Ray Pneumonia dataset. It runs locally on a MacBook using PySpark, but follows the same patterns used in cloud data engineering.
 
-## Folder layout
-
-- chest_xray: dataset with train, test, val splits
-- image_pipeline: code and outputs
-
 ## Files
 
 - chest_xray_etl.py
@@ -41,7 +36,7 @@ We built a simple, cloud-style ETL pipeline for the Kaggle Chest X-Ray Pneumonia
   - Spark session setup and memory tuning
   - Preprocessing logic and curated output
 
-- Teammate
+- Vaibhav
   - Implemented augmentation and stats
   - Built aggregates for reporting
   - Wrote reporting script and validated outputs
